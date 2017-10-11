@@ -20,7 +20,7 @@
 
 				<div class="column medium-8">
 
-					<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+					<main id="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
 						<h1 class="archive-title h2"><?php post_type_archive_title(); ?></h1>
 
