@@ -5,7 +5,7 @@ main functions & features reside. If you have
 any custom functions, it's best to put them
 in the functions.php file.
 
-Developed by: Eddie Machado
+Developed by: Stephane Goeuriot
 URL: http://themble.com/naked/
 
   - head cleanup (remove rsd, uri links, junk css, ect)

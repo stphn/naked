@@ -10,7 +10,7 @@ keep it organized. I find it easier to edit
 and change things if they are concentrated
 in their own file.
 
-Developed by: Eddie Machado
+Developed by: Stephane Goeuriot
 URL: http://themble.com/naked/
 */
 

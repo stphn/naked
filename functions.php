@@ -1,6 +1,6 @@
 <?php
 /*
-Author: Eddie Machado
+Author: Stephane Goeuriot
 URL: http://themble.com/naked/
 
 This is where you can drop your custom functions or
