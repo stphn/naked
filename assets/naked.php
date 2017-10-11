@@ -128,7 +128,7 @@ function naked_scripts_and_styles() {
 		wp_register_script( 'naked-modernizr', get_stylesheet_directory_uri() . '/assets/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
 
 		// register main stylesheet
-		wp_register_style( 'naked-stylesheet', get_stylesheet_directory_uri() . '/assets/css/style.css', array(), '', 'all' );
+		wp_register_style( 'naked-stylesheet', get_stylesheet_directory_uri() . '/assets/css/main.css', array(), '', 'all' );
 
 		// ie-only style sheet
 		wp_register_style( 'naked-ie-only', get_stylesheet_directory_uri() . '/assets/css/ie.css', array(), '' );
