@@ -1,3 +1,7 @@
 .header {
-	background-color: red;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: color('light');
+	padding: $gutter/2;
 }
