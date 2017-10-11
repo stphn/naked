@@ -1,0 +1,17 @@
+{
+  "name": "naked",
+  "version": "1.0.0",
+  "description": "A wordpress starter theme",
+  "private": true,
+  "authors": [
+    "Stephane Goeuriot <sg@setgraphic.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stphn/naked.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "bower install"
+  }
+}
