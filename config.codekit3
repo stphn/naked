@@ -35,27 +35,27 @@
 		},
 	"\/404.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/404.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/archive-custom_type.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/archive-custom_type.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/archive.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/archive.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/assets\/admin.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/assets\/admin.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/assets\/bower\/basicGrid\/.bower.json": {
 		"ft": 524288,
@@ -253,9 +253,9 @@
 		},
 	"\/assets\/custom-post-type.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/assets\/custom-post-type.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/assets\/images\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -335,9 +335,9 @@
 		},
 	"\/assets\/naked.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/assets\/naked.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/assets\/scripts\/main.js": {
 		"ft": 64,
@@ -882,9 +882,9 @@
 		},
 	"\/comments.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/comments.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/favicon.ico": {
 		"ft": 8192,
@@ -911,21 +911,21 @@
 		},
 	"\/functions.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/functions.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/header.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/header.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/index.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/index.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/node_modules": {
 		"ft": 65536,
@@ -943,15 +943,15 @@
 		},
 	"\/page-custom.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page-custom.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/page.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/post-formats\/format-aside.php": {
 		"ft": 8192,
@@ -1044,43 +1044,43 @@
 		},
 	"\/search.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/search.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/searchform.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/searchform.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sidebar.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sidebar.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/single-custom_type.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/single-custom_type.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/single.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/single.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/style-min.css",
-		"oF": 0,
-		"oS": 3
+		"oF": 1,
+		"oS": 0
 		},
 	"\/taxonomy-custom_cat.php": {
 		"ft": 8192,
