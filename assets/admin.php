@@ -91,7 +91,7 @@ function naked_rss_dashboard_widget() {
 
 // calling all custom dashboard widgets
 function naked_custom_dashboard_widgets() {
-	wp_add_dashboard_widget( 'naked_rss_dashboard_widget', __( 'Recently on Themble (Customize on admin.php)', 'nakedtheme' ), 'naked_rss_dashboard_widget' );
+	wp_add_dashboard_widget( 'naked_rss_dashboard_widget', __( 'Recently on Setgraphic (Customize on admin.php)', 'nakedtheme' ), 'naked_rss_dashboard_widget' );
 	/*
 	Be sure to drop any other created Dashboard Widgets
 	in this function and they will all load.

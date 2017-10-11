@@ -1,43 +1,50 @@
 <?php get_header(); ?>
 
-			<div id="content">
+	<div class="section">
 
-				<div id="inner-content" class="wrap cf">
+		<div class="row">
 
-					<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+			<div class="column medium-8">
 
-						<article id="post-not-found" class="hentry cf">
+				<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
-							<header class="article-header">
+					<article id="post-not-found" class="hentry cf">
 
-								<h1><?php _e( 'Epic 404 - Article Not Found', 'nakedtheme' ); ?></h1>
+						<header class="article-header">
 
-							</header>
+							<h1><?php _e( 'Epic 404 - Article Not Found', 'nakedtheme' ); ?></h1>
 
-							<section class="entry-content">
+						</header>
 
-								<p><?php _e( 'The article you were looking for was not found, but maybe try looking again!', 'nakedtheme' ); ?></p>
+						<section class="entry-content">
 
-							</section>
+							<p><?php _e( 'The article you were looking for was not found, but maybe try looking again!', 'nakedtheme' ); ?></p>
 
-							<section class="search">
+						</section>
 
-									<p><?php get_search_form(); ?></p>
+						<section class="search">
 
-							</section>
+							<p><?php get_search_form(); ?></p>
 
-							<footer class="article-footer">
+						</section>
 
-									<p><?php _e( 'This is the 404.php template.', 'nakedtheme' ); ?></p>
+						<footer class="article-footer">
 
-							</footer>
+							<p><?php _e( 'This is the 404.php template.', 'nakedtheme' ); ?></p>
 
-						</article>
+						</footer>
 
-					</main>
+					</article>
 
-				</div>
+				</main>
 
+			</div><!-- end of .column ! -->
+
+			<div class="column medium-4">
+				<?php get_sidebar(); ?>
 			</div>
+
+		</div><!-- end of .row ! -->
+	</div>
 
 <?php get_footer(); ?>

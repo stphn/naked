@@ -14,9 +14,11 @@
 
 <?php get_header(); ?>
 
-			<div id="content">
+		<div class="section">
 
-				<div id="inner-content" class="wrap cf">
+			<div class="row">
+
+				<div class="column medium-8">
 
 					<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
@@ -67,12 +69,15 @@
 
 							<?php endif; ?>
 
-						</main>
+					</main>
 
+				</div><!-- end of .column ! -->
+
+				<div class="column medium-4">
 					<?php get_sidebar(); ?>
-
 				</div>
 
-			</div>
+			</div><!-- end of .row ! -->
+		</div>
 
 <?php get_footer(); ?>
