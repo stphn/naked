@@ -231,6 +231,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/css\/login.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/login-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/assets\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -543,8 +553,8 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/assets\/styles\/admin.css",
-		"oF": 0,
-		"oS": 0,
+		"oF": 2,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/assets\/styles\/editor-style.scss": {
