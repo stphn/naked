@@ -382,6 +382,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/styles\/_aside.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/_aside.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/styles\/_bg.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -521,6 +534,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/styles\/_print.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/styles\/_section.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/_section.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
