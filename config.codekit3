@@ -905,9 +905,9 @@
 		},
 	"\/footer.php": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/footer.php",
-		"oF": 0
+		"oF": 1
 		},
 	"\/functions.php": {
 		"ft": 8192,
