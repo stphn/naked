@@ -221,6 +221,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/css\/admin.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/admin-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/assets\/css\/editor-style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -433,6 +443,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/styles\/_functions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/styles\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
