@@ -231,23 +231,13 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/assets\/css\/ie.css": {
+	"\/assets\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/ie-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/css\/login.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/login-min.css",
+		"oAP": "\/assets\/css\/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -570,19 +560,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/ie.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/ie.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/styles\/login.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -591,8 +568,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/styles\/login.css",
-		"oF": 0,
+		"oAP": "\/assets\/css\/login.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
