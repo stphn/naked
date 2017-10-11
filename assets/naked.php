@@ -137,7 +137,7 @@ function naked_scripts_and_styles() {
     }
 
 		//adding scripts file in the footer
-		wp_register_script( 'naked-js', get_stylesheet_directory_uri() . '/assets/scripts/main.js', array( 'jquery' ), '', true );
+		wp_register_script( 'naked-js', get_stylesheet_directory_uri() . '/assets/scripts/main-min.js', array( 'jquery' ), '', true );
 
 		// enqueue styles and scripts
 		wp_enqueue_style( 'naked-stylesheet' );
