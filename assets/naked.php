@@ -124,8 +124,6 @@ function naked_scripts_and_styles() {
 
   if (!is_admin()) {
 
-		// modernizr (without media query polyfill)
-		wp_register_script( 'naked-modernizr', get_stylesheet_directory_uri() . '/assets/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
 
 		// register main stylesheet
 		wp_register_style( 'naked-stylesheet', get_stylesheet_directory_uri() . '/assets/css/main.css', array(), '', 'all' );
@@ -139,10 +137,9 @@ function naked_scripts_and_styles() {
     }
 
 		//adding scripts file in the footer
-		wp_register_script( 'naked-js', get_stylesheet_directory_uri() . '/assets/js/scripts.js', array( 'jquery' ), '', true );
+		wp_register_script( 'naked-js', get_stylesheet_directory_uri() . '/assets/scripts/main.js', array( 'jquery' ), '', true );
 
 		// enqueue styles and scripts
-		wp_enqueue_script( 'naked-modernizr' );
 		wp_enqueue_style( 'naked-stylesheet' );
 		wp_enqueue_style( 'naked-ie-only' );
 
