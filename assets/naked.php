@@ -126,6 +126,7 @@ function naked_scripts_and_styles() {
 
 
 		// register main stylesheet
+		wp_register_style( 'naked-normalize-css', get_stylesheet_directory_uri() . '/assets/bower/normalize-css/normalize.css', array(), '', 'all' );
 		wp_register_style( 'naked-stylesheet', get_stylesheet_directory_uri() . '/assets/css/main.css', array(), '', 'all' );
 
 		// ie-only style sheet
@@ -140,6 +141,7 @@ function naked_scripts_and_styles() {
 		wp_register_script( 'naked-js', get_stylesheet_directory_uri() . '/assets/scripts/main-min.js', array( 'jquery' ), '', true );
 
 		// enqueue styles and scripts
+		wp_enqueue_style( 'naked-normalize-css' );
 		wp_enqueue_style( 'naked-stylesheet' );
 		wp_enqueue_style( 'naked-ie-only' );
 
