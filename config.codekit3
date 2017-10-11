@@ -339,6 +339,16 @@
 		"oAP": "\/assets\/naked.php",
 		"oF": 1
 		},
+	"\/assets\/scripts\/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/scripts\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/scripts\/main.js": {
 		"ft": 64,
 		"ma": 0,
@@ -552,9 +562,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/styles\/admin.css",
+		"oAP": "\/assets\/css\/admin.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/assets\/styles\/editor-style.scss": {
