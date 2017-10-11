@@ -6,9 +6,8 @@
 
 naked.esproj/
 
-############
-## IDEs
-############
+# IDEs
+
 
 *.pydevproject
 .project
@@ -25,18 +24,38 @@ local.properties
 .buildpath
 nbproject/
 
-############
-## OSes
-############
+
+# OSes
 
 [Tt]humbs.db
 [Dd]esktop.ini
 *.DS_store
 .DS_store?
 
-############
-## Misc
-############
+# Temporary files
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea/
+Icon\r\r
+
+# External disk files
+.Spotlight-V100
+.Trashes
+
+# AFP share files
+.AppleDB
+.AppleDesktop
+.apdisk
+Network Trash Folder
+Temporary Items
+
+# Package Managers
+npm-debug.log
+node_modules
+assets/bower
+
+# Misc
 
 bin/
 tmp/
@@ -50,7 +69,6 @@ tmp/
 .idea/
 temp/
 ._*
-.Trashes
 
 .svn
 
