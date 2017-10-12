@@ -2,6 +2,7 @@
 A Naked Wordpress Development Theme
 
 Naked is designed to make wordpress theming easier.
+
 It's built using HTML5 & rely on [BasicGrid](https://github.com/electerious/basicGrid) and the BEM methodology.
 
 Designed by Stephane Goeuriot
