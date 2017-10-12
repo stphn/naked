@@ -2,9 +2,7 @@
 A Naked Wordpress Development Theme
 
 Naked is designed to make wordpress theming easier. It's built
-using HTML5 & Skeleton-EJS SCSS structure.
-It's constantly growing so be sure to check back often if you are a
-frequent user. I'm always open to contribution. :)
+using HTML5 & rely on [BasicGrid](https://github.com/electerious/basicGrid) and the BEM methodology.
 
 Designed by Stephane Goeuriot
 http://setgraphic.com/naked
@@ -40,4 +38,4 @@ https://github.com/setgraphic/naked/issues
 
 To view Release & Update Notes, read the CHANGELOG.md file in the main folder.
 
-For more news follow me on twitter: @setgraphic
+Don't forget to follow me on twitter: @setgraphic
