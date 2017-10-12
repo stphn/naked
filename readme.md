@@ -38,4 +38,4 @@ https://github.com/setgraphic/naked/issues
 
 To view Release & Update Notes, read the CHANGELOG.md file in the main folder.
 
-Don't forget to follow me on twitter: @setgraphic
+Don't forget to follow me on twitter:  [@setgraphic](https://twitter.com/setgraphic)
