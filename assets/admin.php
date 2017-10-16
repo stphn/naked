@@ -66,7 +66,7 @@ http://digwp.com/2010/10/customize-wordpress-dashboard/
 function naked_rss_dashboard_widget() {
 	if ( function_exists( 'fetch_feed' ) ) {
 		// include_once( ABSPATH . WPINC . '/feed.php' );               // include the required file
-		$feed = fetch_feed( 'http://feeds.feedburner.com/wpcandy' );        // specify the source feed
+		$feed = fetch_feed( 'http://blog.comwrap.com' );        // specify the source feed
 		if (is_wp_error($feed)) {
 			$limit = 0;
 			$items = 0;
@@ -91,7 +91,7 @@ function naked_rss_dashboard_widget() {
 
 // calling all custom dashboard widgets
 function naked_custom_dashboard_widgets() {
-	wp_add_dashboard_widget( 'naked_rss_dashboard_widget', __( 'Recently on Setgraphic (Customize on admin.php)', 'nakedtheme' ), 'naked_rss_dashboard_widget' );
+	wp_add_dashboard_widget( 'naked_rss_dashboard_widget', __( 'Recently on Comwrap (Customize on admin.php)', 'nakedtheme' ), 'naked_rss_dashboard_widget' );
 	/*
 	Be sure to drop any other created Dashboard Widgets
 	in this function and they will all load.
