@@ -6,7 +6,7 @@ any custom functions, it's best to put them
 in the functions.php file.
 
 Developed by: Stephane Goeuriot
-URL: http://themble.com/naked/
+URL: http://setgraphic.com/naked/
 
   - head cleanup (remove rsd, uri links, junk css, ect)
   - enqueueing scripts & styles
@@ -117,7 +117,7 @@ function naked_gallery_style($css) {
 SCRIPTS & ENQUEUEING
 *********************/
 
-// loading modernizr and jquery, and reply script
+// loading jquery, and reply script
 function naked_scripts_and_styles() {
 
   global $wp_styles; // call global $wp_styles variable to add conditional wrapper around ie stylesheet the WordPress way
