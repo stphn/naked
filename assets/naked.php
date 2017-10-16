@@ -54,31 +54,31 @@ function naked_head_cleanup() {
 // A better title
 // http://www.deluxeblogtips.com/2012/03/better-title-meta-tag.html
 function rw_title( $title, $sep, $seplocation ) {
-  global $page, $paged;
+	global $page, $paged;
 
-  // Don't affect in feeds.
-  if ( is_feed() ) return $title;
+	// Don't affect in feeds.
+	if ( is_feed() ) return $title;
 
-  // Add the blog's name
-  if ( 'right' == $seplocation ) {
-    $title .= get_bloginfo( 'name' );
-  } else {
-    $title = get_bloginfo( 'name' ) . $title;
-  }
+	// Add the blog's name
+	if ( 'right' == $seplocation ) {
+		$title .= get_bloginfo( 'name' );
+	} else {
+		$title = get_bloginfo( 'name' ) . $title;
+	}
 
-  // Add the blog description for the home/front page.
-  $site_description = get_bloginfo( 'description', 'display' );
+	// Add the blog description for the home/front page.
+	$site_description = get_bloginfo( 'description', 'display' );
 
-  if ( $site_description && ( is_home() || is_front_page() ) ) {
-    $title .= " {$sep} {$site_description}";
-  }
+	if ( $site_description && ( is_home() || is_front_page() ) ) {
+		$title .= " {$sep} {$site_description}";
+	}
 
-  // Add a page number if necessary:
-  if ( $paged >= 2 || $page >= 2 ) {
-    $title .= " {$sep} " . sprintf( __( 'Page %s', 'dbt' ), max( $paged, $page ) );
-  }
+	// Add a page number if necessary:
+	if ( $paged >= 2 || $page >= 2 ) {
+		$title .= " {$sep} " . sprintf( __( 'Page %s', 'dbt' ), max( $paged, $page ) );
+	}
 
-  return $title;
+	return $title;
 
 } // end better title
 
@@ -132,10 +132,10 @@ function naked_scripts_and_styles() {
 		// ie-only style sheet
 		wp_register_style( 'naked-ie-only', get_stylesheet_directory_uri() . '/assets/css/ie.css', array(), '' );
 
-    // comment reply script for threaded comments
-    if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
-		  wp_enqueue_script( 'comment-reply' );
-    }
+		// comment reply script for threaded comments
+		if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
+			wp_enqueue_script( 'comment-reply' );
+		}
 
 		//adding scripts file in the footer
 		wp_register_script( 'naked-js', get_stylesheet_directory_uri() . '/assets/scripts/main-min.js', array( 'jquery' ), '', true );
@@ -173,14 +173,14 @@ function naked_theme_support() {
 
 	// wp custom background (thx to @bransonwerner for update)
 	add_theme_support( 'custom-background',
-	    array(
-	    'default-image' => '',    // background image default
-	    'default-color' => '',    // background color default (dont add the #)
-	    'wp-head-callback' => '_custom_background_cb',
-	    'admin-head-callback' => '',
-	    'admin-preview-callback' => ''
-	    )
-	);
+	array(
+		'default-image' => '',    // background image default
+		'default-color' => '',    // background color default (dont add the #)
+		'wp-head-callback' => '_custom_background_cb',
+		'admin-head-callback' => '',
+		'admin-preview-callback' => ''
+	)
+);
 
 	// rss thingy
 	add_theme_support('automatic-feed-links');
@@ -260,23 +260,23 @@ PAGE NAVI
 
 // Numeric Page Navi (built into the theme by default)
 function naked_page_navi() {
-  global $wp_query;
-  $bignum = 999999999;
-  if ( $wp_query->max_num_pages <= 1 )
-    return;
-  echo '<nav class="pagination">';
-  echo paginate_links( array(
-    'base'         => str_replace( $bignum, '%#%', esc_url( get_pagenum_link($bignum) ) ),
-    'format'       => '',
-    'current'      => max( 1, get_query_var('paged') ),
-    'total'        => $wp_query->max_num_pages,
-    'prev_text'    => '&larr;',
-    'next_text'    => '&rarr;',
-    'type'         => 'list',
-    'end_size'     => 3,
-    'mid_size'     => 3
-  ) );
-  echo '</nav>';
+	global $wp_query;
+	$bignum = 999999999;
+	if ( $wp_query->max_num_pages <= 1 )
+	return;
+	echo '<nav class="pagination">';
+	echo paginate_links( array(
+		'base'         => str_replace( $bignum, '%#%', esc_url( get_pagenum_link($bignum) ) ),
+		'format'       => '',
+		'current'      => max( 1, get_query_var('paged') ),
+		'total'        => $wp_query->max_num_pages,
+		'prev_text'    => '&larr;',
+		'next_text'    => '&rarr;',
+		'type'         => 'list',
+		'end_size'     => 3,
+		'mid_size'     => 3
+	) );
+	echo '</nav>';
 } /* end page navi */
 
 /*********************
