@@ -250,9 +250,9 @@ class naked_nav extends Walker_Nav_Menu {
 		if( in_array('current-menu-item', $classes) ) {
 			$active_class = ' class="active"';
 		} else if( in_array('current-menu-parent', $classes) ) {
-			$active_class = ' class="active-parent"';
+			$active_class = ' class="active active--parent"';
 		} else if( in_array('current-menu-ancestor', $classes) ) {
-			$active_class = ' class="active-ancestor"';
+			$active_class = ' class="active active--ancestor"';
 		}
 
 		$url = '';
