@@ -1,4 +1,7 @@
 # Naked
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/stphn/naked.svg)](https://greenkeeper.io/)
+
 A Naked Wordpress Development Theme
 
 Naked is designed to make wordpress theming easier.
